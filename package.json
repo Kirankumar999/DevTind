@@ -2,8 +2,10 @@
   "name": "devtind",
   "version": "1.0.0",
   "description": "Developer space",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
